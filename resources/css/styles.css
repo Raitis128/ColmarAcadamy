@@ -58,3 +58,58 @@ html {
   color: #9b9b9b;
   font-size: 1.1rem;
 }
+
+.main-header {
+  display: flex;
+}
+
+.banner-photo {
+  width: 60%;
+  padding: 32px 48px 32px 24px;
+  background-color: #d8d8d8;
+}
+
+.banner-photo img {
+  overflow: hidden;
+  width: 100%;
+}
+
+.banner-info {
+  background-color: #d8d8d8;
+  width: 40%;
+  display: flex;
+}
+
+.banner-info a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 8px 20px;
+  background-color: #4a4a4a;
+}
+
+h2 {
+  color: #4a4a4a;
+  font-size: 4rem;
+}
+
+h3 {
+  color: #4a4a4a;
+  font-size: 2.2rem;
+}
+
+.banner-info h2 {
+  margin-bottom: 32px;
+}
+
+.banner-info h3 {
+  margin-bottom: 32px;
+}
+
+.banner-info div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
