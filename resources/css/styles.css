@@ -199,7 +199,11 @@ p {
 .cource-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 32px 32px 0 32px;
+  margin: 32px 56px 0 56px;
+}
+
+.cource-container div {
+  margin: 12px 16px;
 }
 
 .cource h2 {
@@ -208,7 +212,7 @@ p {
 }
 
 .cource-container div {
-  width: 31.7%;
+  width: 31%;
   background-color: #fff;
   margin-bottom: 32px;
 }
@@ -216,11 +220,6 @@ p {
 .cource-container img {
   overflow: hidden;
   width: 100%;
-}
-
-.gap {
-  margin: 32px;
-  margin-top: 0;
 }
 
 .cource-container h3 {
@@ -256,6 +255,7 @@ p {
 .video {
   width: 60%;
   margin-left: 24px;
+  margin-right: 24px;
 }
 
 video {
