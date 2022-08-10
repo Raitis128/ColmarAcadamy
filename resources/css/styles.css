@@ -45,6 +45,10 @@ html {
   align-items: center;
 }
 
+.header a:hover {
+  font-weight: bold;
+}
+
 .header span {
   text-transform: uppercase;
 }
@@ -88,6 +92,10 @@ html {
   font-size: 2.2rem;
   padding: 8px 20px;
   background-color: #4a4a4a;
+}
+
+.banner-info a:hover {
+  font-size: 2.3rem;
 }
 
 h2 {
@@ -148,6 +156,10 @@ p {
   padding: 32px 0 32px 0;
 }
 
+.container:hover {
+  background-color: #d8d8d8;
+}
+
 .info-section {
   display: flex;
 }
@@ -187,13 +199,12 @@ p {
 .cource-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 32px 72px;
+  margin: 32px 32px 0 32px;
 }
 
 .cource h2 {
   text-align: center;
   padding-top: 32px;
-  background-color: #d8d8d8;
 }
 
 .cource-container div {
@@ -230,4 +241,40 @@ p {
 .cource-container p {
   margin-bottom: 24px;
   margin-left: 16px;
+}
+
+.companies h2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.companies-container {
+  display: flex;
+}
+
+.video {
+  width: 60%;
+  margin-left: 24px;
+}
+
+video {
+  margin-bottom: 24px;
+}
+
+.video video {
+  overflow: hidden;
+  width: 100%;
+}
+
+.companies .aside-info {
+  padding-top: 0;
+}
+
+.video h3 {
+  margin-bottom: 8px;
+}
+
+.video p {
+  margin-bottom: 32px;
 }
