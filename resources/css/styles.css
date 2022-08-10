@@ -22,7 +22,7 @@ html {
 
 .logo {
   padding-left: 24px;
-  height: 32px;
+  height: 50px;
 }
 
 .navigation li {
@@ -33,6 +33,7 @@ html {
 .header a {
   text-decoration: none;
   color: #000;
+  font-size: 1.3rem;
 }
 
 .navigation li:nth-child(4n) {
@@ -50,13 +51,13 @@ html {
 
 .black {
   color: #4a4a4a;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   font-weight: bold;
 }
 
 .gray {
   color: #9b9b9b;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 
 .main-header {
@@ -65,7 +66,7 @@ html {
 
 .banner-photo {
   width: 60%;
-  padding: 32px 48px 32px 24px;
+  padding: 32px 24px 32px 24px;
   background-color: #d8d8d8;
 }
 
@@ -91,7 +92,7 @@ html {
 
 h2 {
   color: #4a4a4a;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -112,4 +113,121 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.main-article {
+  width: 60%;
+  padding: 32px 24px 32px 24px;
+}
+
+.main-article img {
+  overflow: hidden;
+  width: 100%;
+}
+
+.main-article h2 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 1.45rem;
+  color: #565656;
+}
+
+.main-article p {
+  margin-bottom: 40px;
+}
+
+.main-article span {
+  margin-bottom: 32px;
+}
+
+.aside-info {
+  width: 40%;
+  padding: 32px 0 32px 0;
+}
+
+.info-section {
+  display: flex;
+}
+
+.container {
+  display: flex;
+}
+
+.container img {
+  margin: 16px;
+  width: 35%;
+  height: auto;
+}
+
+.container div {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container div p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #4c91e2;
+  font-size: 1.5rem;
+}
+
+.cource {
+  background-color: #d8d8d8;
+}
+
+.cource-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px 72px;
+}
+
+.cource h2 {
+  text-align: center;
+  padding-top: 32px;
+  background-color: #d8d8d8;
+}
+
+.cource-container div {
+  width: 31.7%;
+  background-color: #fff;
+  margin-bottom: 32px;
+}
+
+.cource-container img {
+  overflow: hidden;
+  width: 100%;
+}
+
+.gap {
+  margin: 32px;
+  margin-top: 0;
+}
+
+.cource-container h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.cource-container span {
+  margin-bottom: 8px;
+  display: block;
+  margin-left: 16px;
+  font-size: 1.45rem;
+  text-transform: uppercase;
+  color: #565656;
+}
+
+.cource-container p {
+  margin-bottom: 24px;
+  margin-left: 16px;
 }
