@@ -278,3 +278,34 @@ video {
 .video p {
   margin-bottom: 32px;
 }
+
+footer {
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-bottom: 40px;
+  background-color: #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  list-style: none;
+  margin-right: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #565656;
+}
+
+footer span {
+  color: #565656;
+}
+
+footer a:hover {
+  color: #000;
+}
