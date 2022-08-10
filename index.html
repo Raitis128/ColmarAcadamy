@@ -17,12 +17,32 @@
         <a href="#"
           ><img
             src="resources/images/ic-logo.svg"
-            alt="The logo."
+            alt="School logo."
             class="logo"
-          /><span class="black">Colmar</span
-          ><span class="gray">Acadamy</span></a
+          /><span class="black pc">Colmar</span
+          ><span class="gray pc">Acadamy</span></a
         >
-        <ul class="navigation">
+        <a href="#campus-mobile" class="mobile"
+          ><img
+            src="resources/images/ic-on-campus.svg"
+            alt="On compus logo."
+            class="logo mobile"
+        /></a>
+        <a href="#online" class="mobile">
+          <img
+            src="resources/images/ic-online.svg"
+            alt="Online logo."
+            class="logo mobile"
+          />
+        </a>
+        <a href="#" class="mobile">
+          <img
+            src="resources/images/ic-login.svg"
+            alt="Login logo."
+            class="logo mobile"
+          />
+        </a>
+        <ul class="navigation pc">
           <li><a href="#campus">On campus</a></li>
           <li><a href="#online">Online</a></li>
           <li><a href="#companies">Our companies</a></li>
@@ -47,7 +67,7 @@
         </article>
       </header>
       <section class="info-section" id="campus">
-        <article class="main-article">
+        <article class="main-article pc">
           <img
             src="resources/images/information-main.jpg"
             alt="The student reads book."
@@ -61,11 +81,17 @@
           </p>
           <span>Emanuel, Sr Strategist at Hiring.com</span>
         </article>
-        <aside class="aside-info">
+        <aside class="aside-info" id="campus-mobile">
           <div class="container">
             <img
               src="resources/images/information-orientation.jpg"
               alt="Students walk in oriantation."
+              class="pc"
+            />
+            <img
+              src="resources/images/information-orientation-mobile.jpg"
+              alt="Students walk in oriantation."
+              class="mobile"
             />
             <div>
               <h3>Oriantation date</h3>
@@ -77,6 +103,12 @@
             <img
               src="resources/images/information-campus.jpg"
               alt="The campus with students."
+              class="pc"
+            />
+            <img
+              src="resources/images/information-campus-mobile.jpg"
+              alt="The campus with students."
+              class="mobile"
             />
             <div>
               <h3>Our campus</h3>
@@ -88,6 +120,12 @@
             <img
               src="resources/images/information-guest-lecture.jpg"
               alt="Our guest smiles."
+              class="pc"
+            />
+            <img
+              src="resources/images/information-guest-lecture-mobile.jpg"
+              alt="Our guest smiles."
+              class="mobile"
             />
             <div>
               <h3>Our guest lecture</h3>
@@ -101,7 +139,15 @@
       </section>
       <section class="cource" id="online">
         <h2>Start learning</h2>
-        <div class="cource-container">
+        <div class="cource-container-mobile mobile">
+          <p>Software engeneering</p>
+          <p>Computer art</p>
+          <p>Design</p>
+          <p>Data</p>
+          <p>Business</p>
+          <p>Marketing</p>
+        </div>
+        <div class="cource-container pc">
           <div>
             <img src="resources/images/course-software.jpg" alt="" />
             <h3>Software engeneering</h3>
@@ -151,15 +197,15 @@
               <source src="resources/videos/thesis.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <h3>Reimagine urban</h3>
-            <p>
+            <h3 class="pc">Reimagine urban</h3>
+            <p class="pc">
               "Curabitur vitae libero in ipusm porttitor consequat. Aliquam et
               commodo lectus, nec consequat neque. Sed non accumsan urna.
               Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
               dolor consequat, tristique ligula"
             </p>
           </section>
-          <aside class="aside-info">
+          <aside class="aside-info pc">
             <div class="container">
               <img
                 src="resources/images/thesis-fisma.jpg"
@@ -186,7 +232,7 @@
     </main>
     <footer>
       <span>© 2016 Colmar Acadamy. All rights reserved</span>
-      <ul>
+      <ul class="pc">
         <li><a href="">Terms</a></li>
         <li><a href="">Privacy</a></li>
       </ul>

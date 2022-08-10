@@ -95,7 +95,7 @@ html {
 }
 
 .banner-info a:hover {
-  font-size: 2.3rem;
+  background-color: #9b9b9b;
 }
 
 h2 {
@@ -283,7 +283,6 @@ footer {
   padding-top: 16px;
   padding-left: 24px;
   padding-bottom: 40px;
-  background-color: #d8d8d8;
   display: flex;
   justify-content: space-between;
 }
@@ -309,3 +308,115 @@ footer span {
 footer a:hover {
   color: #000;
 }
+
+@media only screen and (max-width: 480px) {
+  .pc {
+    display: none;
+  }
+  nav {
+    justify-content: space-around;
+  }
+  .logo {
+    height: 35px;
+    margin-right: 24px;
+  }
+  .banner-info {
+    width: 100%;
+  }
+  .main-header {
+    flex-direction: column;
+  }
+  .banner-photo {
+    width: 100%;
+    padding: 0;
+  }
+  .banner-info h2 {
+    margin: 32px auto 32px 16px;
+    font-size: 2.5rem;
+  }
+  .banner-info h3 {
+    margin-left: 16px;
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+  }
+  .banner-info div {
+    width: 100%;
+    overflow: hidden;
+  }
+  .banner-info a {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    font-size: 1.5rem;
+  }
+  .aside-info {
+    width: 100%;
+    padding: 0;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .aside-info img {
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+  }
+  .container div {
+    margin-left: 32px;
+    margin-bottom: 64px;
+  }
+  .container h3 {
+    font-size: 1.8rem;
+  }
+  .container p {
+    font-size: 1rem;
+  }
+  .container a {
+    font-size: 1.1rem;
+  }
+  .cource h2 {
+    padding-bottom: 16px;
+    background-color: #fff;
+    font-size: 2.5rem;
+  }
+  .cource {
+    background-color: #fff;
+  }
+  .cource-container-mobile {
+    background-color: #fff;
+    margin: 16px 16px 8px 16px;
+  }
+  .cource-container-mobile p {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    background-color: #d8d8d8;
+    color: #4b4b4b;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  .companies h2 {
+    font-size: 2.5rem;
+    padding-top: 56px;
+    padding-bottom: 16px;
+  }
+  video {
+    margin: 0;
+  }
+  .video {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  footer span {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .mobile {
+    display: none;
+  }
+} ;
